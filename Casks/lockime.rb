@@ -1,6 +1,6 @@
 cask "lockime" do
-  version "1.0.0"
-  sha256 "ebd6306c4c471d635cafc596e489f1e938a0efca1d97336b8fd6f8ea10c3e411"
+  version "1.1.0"
+  sha256 "8941e5bc2071bfd531608ad9a6c4f4a5cd9ca5c7e0f7f0450f2da6b29ec4f7fc"
 
   url "https://github.com/Josense/LockIME/releases/download/v#{version}/LockIME-#{version}.dmg",
       verified: "github.com/Josense/LockIME/"
