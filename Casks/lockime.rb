@@ -5,14 +5,12 @@ cask "lockime" do
   url "https://github.com/Josense/LockIME/releases/download/v#{version}/LockIME-#{version}.dmg",
       verified: "github.com/Josense/LockIME/"
   name "LockIME"
-  desc "Menu bar utility that locks the macOS input method"
+  desc "Menu bar utility that locks the active input method"
   homepage "https://github.com/Josense/LockIME"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "LockIME.app"
 
-  zap trash: [
-    "~/Library/Preferences/com.open.lockime.plist",
-  ]
+  zap trash: "~/Library/Preferences/com.open.lockime.plist"
 end
