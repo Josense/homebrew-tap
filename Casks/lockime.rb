@@ -1,9 +1,8 @@
 cask "lockime" do
-  version "1.1.0"
-  sha256 "8941e5bc2071bfd531608ad9a6c4f4a5cd9ca5c7e0f7f0450f2da6b29ec4f7fc"
+  version "1.0.0"
+  sha256 "c4ddbd99521413c66febb9a24698e74c48c48c01ebe10105d119ab5d322007ac"
 
-  url "https://github.com/Josense/LockIME/releases/download/v#{version}/LockIME-#{version}.dmg",
-      verified: "github.com/Josense/LockIME/"
+  url "https://github.com/Josense/LockIME/releases/download/v#{version}/LockIME-#{version}.dmg"
   name "LockIME"
   desc "Menu bar utility that locks the active input method"
   homepage "https://github.com/Josense/LockIME"
